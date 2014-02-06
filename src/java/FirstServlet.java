@@ -23,6 +23,7 @@ public class FirstServlet extends HttpServlet {
 	out.print("</form>");
 		
 	out.close();
+        out.println("Cookies created");
 
         }catch(Exception e){System.out.println(e);}
   }
