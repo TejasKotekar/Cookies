@@ -14,6 +14,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response){
 	out.print("Hello "+ck[0].getValue());
 
 	out.close();
+        out.println("Cookies displayed");
 
          }catch(Exception e){System.out.println(e);}
 	}
